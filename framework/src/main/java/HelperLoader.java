@@ -1,7 +1,4 @@
-import helper.BeanHelper;
-import helper.ClassHelper;
-import helper.ControllerHelper;
-import helper.IocHelper;
+import helper.*;
 import util.ClassUtil;
 
 /**
@@ -16,7 +13,8 @@ public class HelperLoader {
                 ClassHelper.class,
                 BeanHelper.class,
                 IocHelper.class,
-                ControllerHelper.class
+                ControllerHelper.class,
+                AopHelper.class
         };
 
         for (Class<?> cls : classList) {
