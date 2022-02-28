@@ -1,7 +1,7 @@
 package bean;
 
 /**
- * 返回数据对象
+ * 前端: 用于封装Controller方法返回的JSON数据对象
  */
 public class Data {
 

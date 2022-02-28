@@ -5,7 +5,7 @@ import org.apache.commons.collections4.MapUtils;
 import java.util.Map;
 
 /**
- * 请求参数对象
+ * 前端: 请求参数对象
  */
 public class Param {
 
