@@ -1,0 +1,5 @@
+- Define Annotations (e.g. Controller, Service)
+- Configuration reader/Handler/helper
+- Class collection, class loader based on annotations, CLASS_SET, package reader based on base-addr configurated by configuration file
+- Bean container: use Reflection to initialize objects based on class name, BEAN_MAP, bean method invoker
+- Ioc helper, retrieve beans from container, inject them in @Autowired properties
